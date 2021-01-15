@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace MultidimentionalArrays
+namespace _05.SquarewithMaximumSum
 {
     class Program
     {
@@ -14,7 +14,6 @@ namespace MultidimentionalArrays
 
             int[,] matrix = new int[rows, colls];
 
-            int sum = 0;
             for (int i = 0; i < rows; i++)
             {
                 int[] arr = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
@@ -22,14 +21,10 @@ namespace MultidimentionalArrays
                 for (int row = 0; row < colls; row++)
                 {
                     matrix[i, row] = arr[row];
-                    sum += matrix[i, row];
-                } 
+                }
             }
 
-            Console.WriteLine(rows);
-            Console.WriteLine(colls);
-            Console.WriteLine(sum);
-            
+
         }
     }
 }
