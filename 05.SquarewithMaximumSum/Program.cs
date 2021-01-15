@@ -24,7 +24,34 @@ namespace _05.SquarewithMaximumSum
                 }
             }
 
+            int maxSum = int.MinValue;
+            int maxSumRow = 0;
+            int maxSumCol = 0;
 
+            for (int row = 0; row < rows - 1; row++)
+            {
+                for (int col = 0; col < colls - 1; col++)
+                {
+                    int suqareSum = matrix[row, col] + matrix[row, col + 1] + matrix[row + 1, col] + matrix[row + 1, col + 1];
+                    if (suqareSum > maxSum)
+                    {
+                        maxSum = suqareSum;
+                        maxSumRow = row;
+                        maxSumCol = col;
+                    }
+                }
+            }
+
+            for (int row = maxSumRow; row < maxSumRow + 2; row++)
+            {
+                for (int col = maxSumCol; col < maxSumCol + 2; col++)
+                {
+                    Console.WriteLine($"{matrix[row, col]} ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine(maxSum);
         }
     }
 }
