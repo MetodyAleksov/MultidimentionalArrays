@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimentionalArrays", "MultidimentionalArrays\MultidimentionalArrays.csproj", "{87534A70-BE40-4E31-A184-2530C57BD10D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultidimentionalArrays", "MultidimentionalArrays\MultidimentionalArrays.csproj", "{87534A70-BE40-4E31-A184-2530C57BD10D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MatrixCollSum", "02.MatrixCollSum\02.MatrixCollSum.csproj", "{578EBF75-5724-4E52-AD1C-1DF85ED5B701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MatrixCollSum", "02.MatrixCollSum\02.MatrixCollSum.csproj", "{578EBF75-5724-4E52-AD1C-1DF85ED5B701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PrimaryDiagonal", "03.PrimaryDiagonal\03.PrimaryDiagonal.csproj", "{B625949E-1AB0-4998-ABC1-DB809A9672FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PrimaryDiagonal", "03.PrimaryDiagonal\03.PrimaryDiagonal.csproj", "{B625949E-1AB0-4998-ABC1-DB809A9672FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SymbolInMatrix", "04.SymbolInMatrix\04.SymbolInMatrix.csproj", "{A4F3BF9D-5504-4997-8F60-2D6BD21CFA25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SymbolInMatrix", "04.SymbolInMatrix\04.SymbolInMatrix.csproj", "{A4F3BF9D-5504-4997-8F60-2D6BD21CFA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SquarewithMaximumSum", "05.SquarewithMaximumSum\05.SquarewithMaximumSum.csproj", "{B5BAB4D2-DE15-402E-867F-C1C574FC63DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SquarewithMaximumSum", "05.SquarewithMaximumSum\05.SquarewithMaximumSum.csproj", "{B5BAB4D2-DE15-402E-867F-C1C574FC63DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayModification", "06.JaggedArrayModification\06.JaggedArrayModification.csproj", "{27630D6A-864F-43A9-812F-D089D065A86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PascalTriangle", "07.PascalTriangle\07.PascalTriangle.csproj", "{24E63D5D-529C-4B37-9D5A-C3A9440961F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B5BAB4D2-DE15-402E-867F-C1C574FC63DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5BAB4D2-DE15-402E-867F-C1C574FC63DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5BAB4D2-DE15-402E-867F-C1C574FC63DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27630D6A-864F-43A9-812F-D089D065A86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27630D6A-864F-43A9-812F-D089D065A86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27630D6A-864F-43A9-812F-D089D065A86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27630D6A-864F-43A9-812F-D089D065A86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E63D5D-529C-4B37-9D5A-C3A9440961F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E63D5D-529C-4B37-9D5A-C3A9440961F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E63D5D-529C-4B37-9D5A-C3A9440961F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E63D5D-529C-4B37-9D5A-C3A9440961F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
