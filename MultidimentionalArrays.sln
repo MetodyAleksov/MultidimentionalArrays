@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SymbolInMatrix", "04.Sym
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SquarewithMaximumSum", "05.SquarewithMaximumSum\05.SquarewithMaximumSum.csproj", "{B5BAB4D2-DE15-402E-867F-C1C574FC63DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayModification", "06.JaggedArrayModification\06.JaggedArrayModification.csproj", "{27630D6A-864F-43A9-812F-D089D065A86A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayModification", "06.JaggedArrayModification\06.JaggedArrayModification.csproj", "{27630D6A-864F-43A9-812F-D089D065A86A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PascalTriangle", "07.PascalTriangle\07.PascalTriangle.csproj", "{24E63D5D-529C-4B37-9D5A-C3A9440961F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.PascalTriangle", "07.PascalTriangle\07.PascalTriangle.csproj", "{24E63D5D-529C-4B37-9D5A-C3A9440961F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DiagonalDifference", "01.DiagonalDifference\01.DiagonalDifference.csproj", "{060AADDF-A611-496D-9CB5-6C8A889F8F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.2x2SuqtaesinMatrix", "02.2x2SuqtaesinMatrix\02.2x2SuqtaesinMatrix.csproj", "{28E5F399-FC11-44D0-9AD1-F60694FE7757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{24E63D5D-529C-4B37-9D5A-C3A9440961F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24E63D5D-529C-4B37-9D5A-C3A9440961F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24E63D5D-529C-4B37-9D5A-C3A9440961F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060AADDF-A611-496D-9CB5-6C8A889F8F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060AADDF-A611-496D-9CB5-6C8A889F8F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060AADDF-A611-496D-9CB5-6C8A889F8F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060AADDF-A611-496D-9CB5-6C8A889F8F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E5F399-FC11-44D0-9AD1-F60694FE7757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E5F399-FC11-44D0-9AD1-F60694FE7757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E5F399-FC11-44D0-9AD1-F60694FE7757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E5F399-FC11-44D0-9AD1-F60694FE7757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
