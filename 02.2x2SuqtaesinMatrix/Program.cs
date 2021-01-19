@@ -46,7 +46,7 @@ namespace _02._2x2SuqtaesinMatrix
                             currMatrix1[1, 0] = matrix[row1 + 1, col1];
                             currMatrix1[1, 1] = matrix[row1 + 1, col1 + 1];
 
-                            if (currMatrix[0, 0] == currMatrix1[0, 0] && currMatrix[1, 0] == currMatrix1[1, 0] && currMatrix[0, 1] == currMatrix1[0, 1] && currMatrix[1, 1] == currMatrix1[1, 1])
+                            if (currMatrix.Equals(currMatrix1))
                             {
                                 equalMatrixes++;
                             }
