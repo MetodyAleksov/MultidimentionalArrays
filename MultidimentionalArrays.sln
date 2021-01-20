@@ -21,17 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DiagonalDifference", "01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.2x2SuqtaesinMatrix", "02.2x2SuqtaesinMatrix\02.2x2SuqtaesinMatrix.csproj", "{28E5F399-FC11-44D0-9AD1-F60694FE7757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximalSum", "03.MaximalSum\03.MaximalSum.csproj", "{71A11F42-150B-4742-8468-E7467ACB7542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaximalSum", "03.MaximalSum\03.MaximalSum.csproj", "{71A11F42-150B-4742-8468-E7467ACB7542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatrixShuffling", "04.MatrixShuffling\04.MatrixShuffling.csproj", "{050846F2-3150-49B1-BB45-9A64FACE595A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MatrixShuffling", "04.MatrixShuffling\04.MatrixShuffling.csproj", "{050846F2-3150-49B1-BB45-9A64FACE595A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SnakeMoves", "05.SnakeMoves\05.SnakeMoves.csproj", "{E36FAEC7-0C62-41FF-AD62-3A203F303889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SnakeMoves", "05.SnakeMoves\05.SnakeMoves.csproj", "{E36FAEC7-0C62-41FF-AD62-3A203F303889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayManipulator", "06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{7FFD5CC8-AC5F-4C81-99B2-5343427DAC59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.JaggedArrayManipulator", "06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{7FFD5CC8-AC5F-4C81-99B2-5343427DAC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.KnightGame", "07.KnightGame\07.KnightGame.csproj", "{17D9C718-C09C-4A6B-BBCF-77B051600DBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.KnightGame", "07.KnightGame\07.KnightGame.csproj", "{17D9C718-C09C-4A6B-BBCF-77B051600DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. RadioactiveMutantVampireBunnies", "10. RadioactiveMutantVampireBunnies\10. RadioactiveMutantVampireBunnies.csproj", "{EF1FD837-9B90-4C44-A049-5DD1343E39AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. RadioactiveMutantVampireBunnies", "10. RadioactiveMutantVampireBunnies\10. RadioactiveMutantVampireBunnies.csproj", "{EF1FD837-9B90-4C44-A049-5DD1343E39AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Bombs", "08.Bombs\08.Bombs.csproj", "{2DCBA116-D128-4725-870E-BB268B2358E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{EF1FD837-9B90-4C44-A049-5DD1343E39AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF1FD837-9B90-4C44-A049-5DD1343E39AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF1FD837-9B90-4C44-A049-5DD1343E39AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCBA116-D128-4725-870E-BB268B2358E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCBA116-D128-4725-870E-BB268B2358E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCBA116-D128-4725-870E-BB268B2358E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCBA116-D128-4725-870E-BB268B2358E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
